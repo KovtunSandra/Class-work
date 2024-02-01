@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@media (min-width: 320px) and (max-width: 376px) {
+	.head {
+		width: 100%;
+		background-color: green;
+		min-height: 200px;
+	}
+}
+@media (min-width: 376px) and (max-width: 426px) {
+	.head {
+		width: 100%;
+		min-height: 200px;
+		background-color: red;
+	}
+}
+@media (min-width: 426px) and (max-width: 769px) {
+	.head {
+		width: 100%;
+		min-height: 150px;
+		background-color: yellow;
+	}
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+	.head {
+		min-height: 155px;
+		background-color: blue;
+	}
+}
+
+
+@media (min-width: 320px) and (max-width: 376px) {
+	.main {
+		width: 100%;
+		background-color: blue;
+		min-height: 500px;
+	}
+}
+@media (min-width: 376px) and (max-width: 426px) {
+	.main {
+		width: 100%;
+		min-height: 600px;
+		background-color: green;
+	}
+}
+@media (min-width: 426px) and (max-width: 769px) {
+	.main {
+		width: 100%;
+		min-height: 535px;
+		background-color: red;
+	}
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+	.main {
+		min-height: 535px;
+		background-color: yellow;
+	}
+}
